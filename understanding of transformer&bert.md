@@ -1,4 +1,4 @@
-今天主要学习了谷歌2017年推出的Transformer这个框架，包括以此为基准而产生的BERT模型
+#今天主要学习了谷歌2017年推出的Transformer这个框架，包括以此为基准而产生的BERT模型
 
 Transformer 是一个encoder-decoder方法下的模型，它解决了以往基于RNN的，或者LTSM记忆网络等在sequence2sequence任务上无法学习到长句子的信息、训练时间长的问题
 Transformer的的每一个编码器都是由(multi)self-attention和feed-forward组成，解码器除了有(multi)self-attention和feed-forward之外，还多了一个encoder-decoder-attention模块。
